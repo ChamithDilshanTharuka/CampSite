@@ -1,28 +1,24 @@
-import './App.css'
-import React from 'react'
-import Header from './Header.jsx'
-import SideMenu from './SideMenu.jsx'
-import Footer from './Footer.jsx'
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Home from './Home'
+import Products from './Products'
+import AboutUs from './AboutUs'
+import ContactUs from './ContactUs'
 
-function App() {
- 
-
+const App = () => {
   return (
     <>
-      <div>
-       <Header/>
-        <div className='content'>
-        <SideMenu/>
-        <main>
-          <h1>Welcome To CampSite</h1>
-          <p>Your one-stop shop for all camping needs.</p>
-        </main>
-        </div>
-        <Footer/>
-      </div>
-      
+      <Router>
+        <Routes>
+        <Route path="/" element={<Home />} />
+          <Route path="/Home" element={<Home />} />
+          <Route path="/Products" element={<Products />} />
+          <Route path="/AboutUs" element={<AboutUs />} />
+          <Route path="/ContactUs" element={<ContactUs />} />
+        </Routes>
+      </Router>
     </>
-  )
+  );
 }
 
-export default App
+export default App;

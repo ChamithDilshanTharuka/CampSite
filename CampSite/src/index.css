@@ -1,0 +1,60 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+.navbar{
+   padding-top: 30px;
+}
+
+.content {
+    flex: 1;
+    margin-left: 280px; 
+    padding: 20px;
+    margin-top: 56px; 
+}
+.content-home {
+    flex: 1;
+    margin-left: 280px; 
+    padding: 20px;
+    
+}
+
+.aside{
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1000; /* Ensure header is on top */
+  }
+
+.Footer{
+    width: 100%;
+}
+.Footer a {
+    color: white;
+  }
+
+.Footer a:hover {
+    color: #adb5bd;
+}
+.footer-container {
+    margin-top: auto; /* Push the footer to the bottom */
+    width: 100%;
+  }
+
+  .btn btn-outline-danger my-2 my-sm-0 mx-2{
+    padding: 10px 20px;
+  }
