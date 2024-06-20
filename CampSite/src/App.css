@@ -45,6 +45,12 @@ font-weight: bold;
     justify-content: center;
 }
 
+.main-layout {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+
 .content {
     flex: 1;
     margin-left: 280px; 
@@ -52,16 +58,17 @@ font-weight: bold;
     margin-top: 56px; 
 }
 .content-home {
-    flex: 1;
-    margin-left: 280px; 
-    padding: 20px;
-    
-}
-
-.aside{
-    width: fit-content;
     display: flex;
-    flex-direction: column;
+    flex: 1; 
+}
+main{
+    flex: 1;
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+.aside{
+    width: 260px;
+    background-color: #0e0e0e;
 }
 
 header {
@@ -70,7 +77,6 @@ header {
     top: 0;
     z-index: 1000; /* Ensure header is on top */
   }
-
 .Footer{
     width: 100%;
 }
