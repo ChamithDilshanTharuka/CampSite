@@ -5,7 +5,10 @@ const Header = () => {
   return (
     <div>
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a className="navbar-brand" href="/Home">CampSite</a>
+      <img src="/ImageCategory/logo.jpeg" alt="sitelogo" className='navbar-brand-logo' />
+      <a className="navbar-brand" href="/Home">
+        CampSite
+      </a>
         <button
           className="navbar-toggler"
           type="button"
@@ -19,6 +22,7 @@ const Header = () => {
         </button>
         
         <div className="collapse navbar-collapse" id="navbarTogglerDemo03">
+          
           <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
             <li className="nav-item">
               <a className="nav-link mx-5" href="/Home">
@@ -35,9 +39,12 @@ const Header = () => {
               <a className="nav-link" href="/ContactUs">Contact Us</a>
             </li>
           </ul>
+          <div className='cart'>
           <button className="btn btn-outline-danger my-2 my-sm-0 mx-2" type="submit">
               🛒
             </button>
+          </div>
+          <div className='search'>
           <form className="form-inline my-2 my-lg-0 ml-auto ">
             <input
               className="form-control mr-sm-2 "
@@ -46,10 +53,11 @@ const Header = () => {
               aria-label="Search"
             />
           </form>
-          
+        
           <button className="btn btn-outline-warning my-2 my-sm-0 mx-2" type="submit">
               Search
-            </button>
+            </button>      
+            </div> 
         </div>
       </nav>
     </div>
