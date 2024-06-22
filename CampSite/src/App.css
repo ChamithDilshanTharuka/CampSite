@@ -11,6 +11,7 @@ body, html {
     flex-direction: column;
     min-height: 100%;
 }
+/*  Home    */
 .navbar{
    padding-top: 30px;
    width: auto;
@@ -44,7 +45,7 @@ font-weight: bold;
     display: flex;
     justify-content: center;
 }
-
+/*  Products    */
 .main-layout {
     display: flex;
     flex-direction: column;
@@ -71,12 +72,74 @@ main{
     background-color: #0e0e0e;
 }
 
+/*  Contact Us    */
+
+.contact-us{
+    display: flex;
+    flex-direction: column;
+    font-size: 2rem;
+    color: white;
+    font-weight: bold;
+    padding: 40px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: #2d2d2f;
+}
+.contact-layout {
+    display: flex;
+    flex-direction: row;
+    background-color: yellow;
+    height: auto;
+    width: 100%;
+  }
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 20px;
+    max-width: 50%;
+
+}
+.contact-data{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 20px;
+    max-width: 50%;
+ }
+.form-title{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.form-subtitle{
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.form-last{
+    font-size: 0.6rem;
+    margin-top: 3px;
+    font-weight: bold;
+    color: red;
+    font-style: italic;
+}
+.contact-data img {
+    max-width: 100%;
+    height: 50%;
+}
+
+/*  Header    */
 header {
     width: 100%;
     position: fixed;
     top: 0;
     z-index: 1000; /* Ensure header is on top */
   }
+
+/*  Footer    */
 .Footer{
     width: 100%;
 }
@@ -90,8 +153,4 @@ header {
 .footer-container {
     margin-top: auto; /* Push the footer to the bottom */
     width: 100%;
-  }
-
-  .btn btn-outline-danger my-2 my-sm-0 mx-2{
-    padding: 10px 20px;
   }

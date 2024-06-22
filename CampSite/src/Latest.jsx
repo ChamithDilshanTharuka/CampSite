@@ -14,9 +14,12 @@ function Latest() {
 return (
     <div>
         <div className="d-flex justify-content-center align-items-center">
-            <button className={`btn mx-2 ${visibleSection === 'featured' ? 'btn-primary' : 'btn-outline-primary'}`}
+            <button className={`btn mx-2
+             ${visibleSection === 'featured' ? 'btn-primary' : 'btn-outline-primary'}`}
             onClick={() => handleClick('featured')}>FEATURED</button>
-            <button className={`btn mx-2 ${visibleSection === 'best-sellers' ? 'btn-primary' : 'btn-outline-primary'}`}
+            
+            <button className={`btn mx-2 
+            ${visibleSection === 'best-sellers' ? 'btn-primary' : 'btn-outline-primary'}`}
             onClick={() => handleClick('best-sellers')}>BEST SELLERS</button>
         </div>
         {visibleSection === 'featured' &&(
