@@ -53,10 +53,10 @@ const Header = () => {
               aria-label="Search"
             />
           </form>
-        
-          <button className="btn btn-outline-warning my-2 my-sm-0 mx-2" type="submit">
+             
+          {/* <button className="btn btn-outline-warning my-2 my-sm-0 mx-2" type="submit">
               Search
-            </button>      
+            </button>  */}
             </div> 
         </div>
       </nav>
