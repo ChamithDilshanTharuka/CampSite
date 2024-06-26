@@ -80,10 +80,13 @@ function TabsBar() {
         <Col lg={8}>
           <Card className='card-data'>
             <Card.Body>
-              <Card.Title>Our Commitment</Card.Title>
+              <Card.Title>Our Story</Card.Title>
               <Card.Text>
-                We are dedicated to providing the highest quality camping gear and accessories. Our mission is to ensure that every outdoor enthusiast has access to reliable, durable, and affordable equipment to enhance their adventure experiences.
-              </Card.Text>
+              Founded by a group of avid campers, CAMPSITE was born out of a love for 
+              the great outdoors and a desire to share that passion with others. Over the years,
+               we have grown from a small startup into a leading online retailer, serving thousands 
+               of happy customers nationwide. 
+               </Card.Text>
             </Card.Body>
           </Card>
         </Col>
@@ -91,7 +94,7 @@ function TabsBar() {
       </Container>
       </Tab>
 
-      <Tab className='A-tab' eventKey="commitment" title="Our Commitment">
+      <Tab className='A-tab' eventKey="joinus" title="Join Our Community">
       <Container className='my-5 conatainer-card'>
       <Row className='row-card p-3'>
         <Col lg={4}>
@@ -100,10 +103,13 @@ function TabsBar() {
         <Col lg={8}>
           <Card className='card-data'>
               <Card.Body>
-                <Card.Title>Our Commitment</Card.Title>
+                <Card.Title>Join Our Community</Card.Title>
                 <Card.Text>
-                  We are dedicated to providing the highest quality camping gear and accessories. Our mission is to ensure that every outdoor enthusiast has access to reliable, durable, and affordable equipment to enhance their adventure experiences.
-                </Card.Text>
+                At CAMPSITE, we believe that the best adventures are shared.
+                 Join our community of like-minded outdoor enthusiasts on social media,
+                  where we share tips, stories, and inspiration to help you make the most
+                   of your time in nature.
+                 </Card.Text>
               </Card.Body>
             </Card>
           </Col>
