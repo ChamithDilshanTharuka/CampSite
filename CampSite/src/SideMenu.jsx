@@ -11,31 +11,23 @@ const SideMenu = () => {
     <hr/>
     <ul className="nav nav-pills flex-column">
       <li className="nav-item">
-        <a href="#" className="nav-link active" aria-current="page">
-          Home
+        <a href="Accessories" className="nav-link active" aria-current="page">
+          Accessories
         </a>
       </li>
       <li>
-        <a href="#" className="nav-link text-white">
-          Dashboard
+        <a href="Backpack" className="nav-link text-white">
+          Backpack
         </a>
       </li>
       <li>
-        <a href="#" className="nav-link text-white">
-          
-          Orders
+        <a href="Gear" className="nav-link text-white">
+          Gear
         </a>
       </li>
       <li>
-        <a href="#" className="nav-link text-white">
-
-          Products
-        </a>
-      </li>
-      <li>
-        <a href="#" className="nav-link text-white">
-          
-          Customers
+        <a href="Tents" className="nav-link text-white">
+          Tents
         </a>
       </li>
     </ul>

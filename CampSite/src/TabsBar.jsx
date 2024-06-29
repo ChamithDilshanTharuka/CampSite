@@ -75,7 +75,7 @@ function TabsBar() {
       <Container className='my-5 conatainer-card'>
       <Row className='row-card p-3'>
         <Col lg={6}>
-          <Card.Img  className='img-tab-3' variant="top" src="AboutUsImg/about-3.jpg"/>
+          <Card.Img  className='img-responsive' variant="top" src="AboutUsImg/about-3.jpg"/>
         </Col>
         <Col lg={6}>
           <Card className='card-data'>
