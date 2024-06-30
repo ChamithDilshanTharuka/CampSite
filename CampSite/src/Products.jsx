@@ -17,6 +17,7 @@ const Products = () => {
 
       <div className='main-layout'>
         <div className='content-home'>
+{/* SideMenu */}
           <div className='aside'>
             <div className="p-4 text-white">
               <span className="fs-2">Product Categories</span>
@@ -63,6 +64,8 @@ const Products = () => {
               </ul>
             </div>
           </div>
+
+{/* Main content */}
           <div>
           {active === 'All' && (
                 <div className='row All-div'>
