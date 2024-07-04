@@ -67,8 +67,7 @@ const Products = () => {
 
 {/* Main content */}
           <div>
-          {active === 'All' && (
-                <div className='row All-div'>
+          {active === 'All' && ( <div className='row All-div'>
                   <h2>Find All Your Needs Here</h2>
                   <CardDeck />
                   <CardDeck />
