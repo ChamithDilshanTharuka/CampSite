@@ -1,17 +1,17 @@
-import React from "react";
-import Header from "./Header";
-import Footer from "./Footer";
+import React from 'react'
+import Header from './Header'
+import Footer from './Footer'
 
-const Cart = () = {
-
-    return (
-        <>
+const Cart = () => {
+  return (
+    <div>
         <Header/>
-        <div>Cart</div>
-       <>
-        </>
-    );
-    
-};
+        <div>
+            <h1>Cart</h1>
+        </div>
+        <Footer/>
+    </div>
+  )
+}
 
-export default Cart;
+export default Cart

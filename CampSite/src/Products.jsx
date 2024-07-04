@@ -4,6 +4,7 @@ import Header from './Header';
 import Footer from './Footer';
 import CardDeck from './CardDeck';
 
+
 const Products = () => {
   const [active, setActive] = useState('Accessories');
 

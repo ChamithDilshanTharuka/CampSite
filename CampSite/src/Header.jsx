@@ -1,4 +1,5 @@
 import React from 'react';
+import Cart from './Cart';
 
 
 const Header = () => {
@@ -41,7 +42,7 @@ const Header = () => {
           </ul>
           <div className='cart'>
           <button className="btn btn-outline-danger my-2 my-sm-0 mx-2" type="submit">
-              🛒
+              <a href="/Cart" className='nav-link'>🛒</a>
             </button>
           </div>
           <div className='search'>
