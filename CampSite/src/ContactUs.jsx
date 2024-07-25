@@ -3,6 +3,7 @@ import Header from './Header.jsx'
 import Footer from './Footer.jsx'
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
+import Gallery from './Gallery.jsx';
 
 function ContactUs() {
   return (
@@ -47,11 +48,22 @@ function ContactUs() {
             <a href="mailto:campsitecontact@gmail.com" className='overlay-subtext'>📧 Email: campsitecontact@gmail.com</a>
           </div>
           
-      </div>
+          </div>
         </div>
      </div>
+      
+     <div className='mt-3'>
+      <div style={{backgroundColor:"lightgreen", height:"50px"}}>
+        <center><h2>Gallery</h2></center>
+      </div>
+         <Gallery/>
+      </div>
+
      <div>
-        <iframe  className='contact-map' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15839.621865236619!2d80.58919065!3d7.02039755!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae377b544e561a1%3A0xaca4c365f97a79ae!2sKotmale!5e0!3m2!1sen!2slk!4v1719248544661!5m2!1sen!2slk"
+          <div style={{backgroundColor:"lightgreen", height:"50px"}}>
+          <center><h2>Hmmm....Where are We?📌</h2></center>
+     </div>
+        <iframe  className='contact-map mt-3' style={{height:"400px", width:"100%"}} src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15839.621865236619!2d80.58919065!3d7.02039755!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae377b544e561a1%3A0xaca4c365f97a79ae!2sKotmale!5e0!3m2!1sen!2slk!4v1719248544661!5m2!1sen!2slk"
        allowfullscreen="" loading="lazy">
        </iframe>
      </div>
@@ -65,4 +77,4 @@ function ContactUs() {
   )
 }
 
-export default ContactUs
+export default ContactUs;
